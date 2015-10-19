@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Reservation</title>
+    <!-- Bootstrap Styles-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FontAwesome Styles-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- Custom Styles-->
+    <link href="assets/css/custom-styles.css" rel="stylesheet" />
+    <!-- Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+</head>
+
+<body>
+<div id="wrapper">
+    <nav class="navbar navbar-default top-navbar" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Reservation</a>
+        </div>
+
+        <ul class="nav navbar-top-links navbar-right">
+            <li>
+                <a href="index.html" > Home </a>
+            </li>
+            <li>
+                <a href="customer-index.html" > Reservation </a>
+            </li>
+            <li >
+            <li>
+                <a href="contact-us.html" > Contact us </a>
+            </li>
+
+        </ul>
+    </nav>
+    <!--/. NAV TOP  -->
+    <nav class="navbar-default navbar-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav" id="main-menu">
+
+                <li>
+                    <a href="customer-index.html"><i class="fa fa-plus"></i> Create Reservation</a>
+                </li>
+                <li>
+                    <a class="active-menu" href="customer-edit-1.html"><i class="fa fa-pencil"></i> Edit Resevation</a>
+                </li>
+                <li>
+                    <a href="customer-delete.html"><i class="fa fa-trash-o"></i> Delete Reservation</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+    <!-- /. NAV SIDE  -->
+    <div id="page-wrapper" >
+        <div id="page-inner">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="page-header">
+                        Edit Details <small></small>
+                    </h1>
+                </div>
+            </div>
+            <!-- /. ROW  -->
+            <div class="row form-color">
+                <div class="col-lg-12">
+                      <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <form role="form" action="customer-edit-2.html">
+                                        <div class="form-group">
+                                            <label>Confirmation Number</label>
+                                            <input class="form-control" placeholder="Enter confirmation number" type="text" required="required" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Contact Number</label>
+                                            <input class="form-control" placeholder="Enter contact number" type="number" required="required" >
+                                        </div>
+                                        <button type="submit" class="btn btn-default" >Submit</button>
+                                        <button type="reset" class="btn btn-default">Reset</button>
+                                    </form>
+                                </div>
+                                <!-- /.col-lg-6 (nested) -->
+
+                            </div>
+                            <!-- /.row (nested) -->
+
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+        </div>
+        <!-- /. PAGE INNER  -->
+    </div>
+    <!-- /. PAGE WRAPPER  -->
+</div>
+</div>
+<!-- /. WRAPPER  -->
+
+
+
+</body>
+
+</html>
